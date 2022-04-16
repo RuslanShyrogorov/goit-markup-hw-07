@@ -1,0 +1,40 @@
+.logo {
+  color: var(--title-text-color);
+
+  text-decoration: none;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-align: left;
+  vertical-align: Top;
+}
+
+.sub-nav .logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--title-text-color);
+}
+
+.logo .logo-blu {
+  color: var(--accent-text-color);
+
+  text-decoration: none;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-align: left;
+  vertical-align: Top;
+}
+
+.logo .logo-blu:hover,
+.logo .logo-blu:focus {
+  color: var(--accent-text-color);
+}
