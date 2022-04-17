@@ -15,6 +15,10 @@
   align-items: center;
 
   transition: background-color var(--time-animation) var(--animation);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-text-color);
+  }
 }
 
 .social-list-icon {
@@ -29,9 +33,4 @@
 .our-team .social-list-link:hover .social-list-icon,
 .our-team .social-list-link:focus .social-list-icon {
   fill: var(--bgc-primary-color);
-}
-
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: var(--accent-text-color);
 }

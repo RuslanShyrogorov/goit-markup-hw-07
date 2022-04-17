@@ -46,6 +46,11 @@
   color: var(--bgc-primary-color);
 
   transition: background-color var(--time-animation) var(--animation);
+
+  &:hover,
+  &:focus {
+    background-color: var(--hover-buttom-primary);
+  }
 }
 
 .subscribe-btn-icon {
@@ -55,7 +60,3 @@
   transform: translateY(-50%);
 }
 
-.footer-form-subscribe-btn:hover,
-.footer-form-subscribe-btn:focus {
-  background-color: var(--hover-buttom-primary);
-}

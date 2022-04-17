@@ -4,9 +4,9 @@
 
 .footer .social-list-link {
   background-color: rgba(255, 255, 255, 0.1);
-}
 
-.footer .social-list-link:hover,
-.footer .social-list-link:focus {
-  background-color: var(--accent-text-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-text-color);
+  }
 }
